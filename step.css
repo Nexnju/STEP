@@ -405,6 +405,7 @@ section {
 .img {
   position: relative;
   overflow: hidden;
+  object-fit: cover;
   background: #222;
   clip-path: inset(0);
   transition: clip-path 1.4s cubic-bezier(.7,0,.1,1);
@@ -415,6 +416,7 @@ section {
 .pic {
   position: absolute;
   inset: -12% 0;
+    object-fit: cover;
   background: var(--ph) center/cover;
   /* filter: grayscale(1) contrast(1.15); */
   transition: filter .8s;
@@ -665,7 +667,7 @@ footer {
   position: absolute;
   inset: 0;
   z-index: -1;
-  opacity: .55;
+  opacity: .80;
   overflow: hidden;
   transition: opacity .6s;
 }

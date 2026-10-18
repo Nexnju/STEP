@@ -828,3 +828,87 @@ img.pic {
   font-size: 34px;
   transform: rotate(0deg);
 } */
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact-section {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1.3fr .7fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.contact-left h2 {
+    font-size: clamp(55px, 8vw, 80px);
+    line-height: 1.0;
+    letter-spacing: -6px;
+    margin-bottom: 35px;
+}
+
+.contact-left h2 span {
+    color: rgba(255,255,255,.3);
+}
+
+.contact-left > p {
+    max-width: 480px;
+    color: rgba(255,255,255,.5);
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.email-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: var(--mustard);
+    color: #050505;
+    font-size: 13px;
+    transition: .3s;
+}
+
+.email-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 40px var(--mustard-glow);
+}
+
+.contact-right {
+    border-top: 1px solid rgba(255,255,255,.15);
+}
+
+.contact-item {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item span {
+    font-family: "DM Mono", monospace;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.722);
+    letter-spacing: 1px;
+}
+
+.contact-item a {
+    font-size: 20px;
+    transition: .3s;
+}
+
+.contact-item a:hover {
+    color: #E1AD01;
+}
+

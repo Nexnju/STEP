@@ -413,8 +413,8 @@ section {
 
 .pillar-box p {
   line-height: 1.5;
-  font-size: .92rem;
-  color: var(--mut);
+  font-size: .99rem;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .pillar-box:hover p { color: #fff; }
@@ -433,7 +433,7 @@ section {
 .about-photo { height: 55vh; }
 
 .about-text {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.7;
   max-width: 46ch;
 }
@@ -461,9 +461,9 @@ section {
 
 .contact-left > p {
   max-width: 460px;
-  color: var(--mut);
+  color: rgba(255, 255, 255, 0.904);
   line-height: 1.7;
-  font-size: .95rem;
+  font-size: .99rem;
   margin-bottom: 30px;
 }
 
@@ -501,8 +501,8 @@ section {
 
 .contact-item span {
   font-family: monospace;
-  font-size: 9px;
-  color: var(--mut);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.904);
   letter-spacing: 1px;
 }
 

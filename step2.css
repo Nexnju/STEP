@@ -60,7 +60,7 @@ a {
   font-family: Impact, "Arial Narrow Bold", "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: -.01em;
+  letter-spacing: 0.02em;
   line-height: .88;
 }
 
@@ -353,7 +353,7 @@ section {
 
 /* --- Manifesto / About --- */
 #about p.big {
-  font-size: clamp(1.6rem, 3.5vw, 3.4rem);
+  font-size: clamp(2.4rem, 3.5vw, 3.4rem);
   line-height: 1.12;
   font-weight: 700;
   letter-spacing: -.02em;
@@ -411,9 +411,9 @@ section {
 }
 
 .num p {
-  color: var(--mut);
+  color: rgba(255, 255, 255, 0.886);
   margin-top: .6rem;
-  font-size: .88rem;
+  font-size: .98rem;
   max-width: 22ch;
   line-height: 1.4;
 }
@@ -512,7 +512,7 @@ section {
 }
 
 .card p {
-  color: var(--mut);
+  color: rgba(0, 0, 0, 0.874);
   line-height: 1.5;
   font-size: .95rem;
   max-width: 44ch;
@@ -575,13 +575,13 @@ section {
 
 .join p {
   line-height: 1.5;
-  font-size: .92rem;
+  font-size: .99rem;
   max-width: 32ch;
 }
 
 .join small {
   letter-spacing: .3em;
-  font-size: .6rem;
+  font-size: .8rem;
 }
 
 /* --- Story Section --- */
@@ -611,10 +611,10 @@ section {
 }
 
 .tl p {
-  color: var(--mut);
+  color: black;
   line-height: 1.6;
   max-width: 44ch;
-  font-size: .95rem;
+  font-size: .99rem;
 }
 
 @media(max-width: 800px) {
